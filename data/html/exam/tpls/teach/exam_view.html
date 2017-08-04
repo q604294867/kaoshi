@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PHPEMS模拟考试系统</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="app/core/styles/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="app/core/styles/css/datetimepicker.css" />
+	<link rel="stylesheet" type="text/css" href="app/core/styles/css/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="app/core/styles/css/peskin.css" />
+	<!--[if lt IE 9]>
+	<script src="app/core/styles/js/html5shiv.min.js"></script>
+	<script src="app/core/styles/js/respond.min.js"></script>
+	<![endif]-->
+	<script src="app/core/styles/js/jquery.min.js"></script>
+	<script src="app/core/styles/js/jquery.json.js"></script>
+	<script src="app/core/styles/js/jquery-ui.min.js"></script>
+	<script src="app/core/styles/js/bootstrap.min.js"></script>
+	<script src="app/core/styles/js/bootstrap-datetimepicker.js"></script>
+
+	<script src="app/core/styles/js/all.fine-uploader.min.js"></script>
+
+	<script src="app/core/styles/js/ckeditor/ckeditor.js"></script>
+	<script src="app/core/styles/js/plugin.js"></script>
+	<script src="app/exam/styles/js/plugin.js"></script>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy">
+<div class="container-fluid" id="questioncontent">
+	<div class="row-fluid">
+		<div class="main box">
+			<div class="col-xs-3" id="questionbar">
+				<dl class="clear" style="width:270px;" data-spy="affix" data-offset-top="235">
+					<dt class="float_l"><h4>&nbsp;</h4></dt>
+					<ul class="nav nav-tabs" role="tablist">
+																																										<li role="presentation" class="active"><a href="#qt_1" aria-controls="home" role="tab" data-toggle="tab">一</a></li>
+																																																																																																																																																																								<li role="presentation"><a href="#qt_6" aria-controls="home" role="tab" data-toggle="tab">二</a></li>
+																							</ul>
+					<div class="tab-content" style="margin-top:5px;" id="questionindex">
+																																										<div role="tabpanel" class="tab-pane tableindex active" id="qt_1">
+										                			                							<a id="sign_890" href="#question_890" class="btn btn-default">1</a>
+																				</div>
+																																																																																																																																																																								<div role="tabpanel" class="tab-pane tableindex" id="qt_6">
+										                			                							<a id="sign_891" href="#question_891" class="btn btn-default">1</a>
+																				</div>
+																							</div>
+				</dl>
+			</div>
+			<div class="col-xs-9 split pull-right" style="padding:0px;position:relative;">
+				<div class="scoreArea">10.00</div>
+				<div class="box itembox">
+					<h2 class="text-center tt">我自己组的卷子</h2>
+				</div>
+																												<hr />
+				<div class="box itembox">
+					<blockquote class="questype">一、单选题</blockquote>
+				</div>
+					            	            				<div class="box itembox paperexamcontent">
+					<h4 class="title">
+						第1题
+						<span class="pull-right">
+							<a class="btn btn-primary qicon" onclick="javascript:favorquestion('890');"><i class="glyphicon glyphicon-heart-empty"></i></a>
+							<a name="question_890">
+							<input id="time_890" type="hidden" name="time[890]"/>
+						</span>
+					</h4>
+					<div class="choice">
+						</a><p>自定义单选题的题目</p>
+
+<p>&nbsp;</p>					</div>
+															<div class="choice">
+	                	<p>A:第一个选项</p>
+
+<p>B:第二个选项</p>
+
+<p>C:第三个选项</p>
+
+<p>D:第四个选项</p>	                </div>
+	                	                					<div class="decidediv" style="border-left:10px solid #CCCCCC;position:relative;">
+	                	<div class="wrong"></div>	                	<table class="table table-hover table-bordered">
+            				<tr class="info">
+	                			<th colspan="2" style="border-top:0px;">本题得分：0分</th>
+	                		</tr>
+	                		<tr>
+	                    		<td width="15%">正确答案：</td>
+	                    		<td>A</td>
+	                    	</tr>
+	                    	<tr>
+	                    		<td>考生答案：</td>
+	                        	<td>B</td>
+	                    	</tr>
+	                	</table>
+	                </div>
+				</div>
+																																																																																																																								<hr />
+				<div class="box itembox">
+					<blockquote class="questype">二、问答题</blockquote>
+				</div>
+					            	            				<div class="box itembox paperexamcontent">
+					<h4 class="title">
+						第1题
+						<span class="pull-right">
+							<a class="btn btn-primary qicon" onclick="javascript:favorquestion('891');"><i class="glyphicon glyphicon-heart-empty"></i></a>
+							<a name="question_891">
+							<input id="time_891" type="hidden" name="time[891]"/>
+						</span>
+					</h4>
+					<div class="choice">
+						</a><p>双方未啊</p>					</div>
+										<div class="decidediv" style="border-left:10px solid #CCCCCC;position:relative;">
+	                	<div class="wrong"></div>	                	<table class="table table-hover table-bordered">
+            				<tr class="info">
+	                			<th colspan="2" style="border-top:0px;">本题得分：10分</th>
+	                		</tr>
+	                		<tr>
+	                    		<td width="15%">正确答案：</td>
+	                    		<td><p>温柔</p></td>
+	                    	</tr>
+	                    	<tr>
+	                    		<td>考生答案：</td>
+	                        	<td><p>dfge</p></td>
+	                    	</tr>
+	                	</table>
+	                </div>
+				</div>
+																							</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
